@@ -1,0 +1,16 @@
+{
+  "name": "Blaze Monitoramento do Foguetinho",
+  "version": "1.0.0",
+  "description": "Monitora o jogo do Foguetinho da Blaze",
+  "manifest_version": 3,
+  "author": "SrBrigão",
+
+  "content_scripts": [{
+    "js": ["index.js"],
+    "matches": ["https://blaze.com/*"]
+  }],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Monitoramento do Foguetinho da Blaze"
+  }
+}
